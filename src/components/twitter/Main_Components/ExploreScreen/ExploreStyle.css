@@ -1,0 +1,17 @@
+.wd-fa-small {
+    font-size: 0.5em;
+}
+.wd-follow-logo-images {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.wd-tweet-blue {
+    color: rgb(29,161,242);
+}
+.wd-dm-gray {
+    color: rgb(110, 118, 125);
+}
+.wd-text-no-underline {
+    text-decoration: none;
+}

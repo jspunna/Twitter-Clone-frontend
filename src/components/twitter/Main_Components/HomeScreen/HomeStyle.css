@@ -1,0 +1,55 @@
+.wd-dm-gray {
+    color: rgb(110, 118, 125);
+}
+.wd-fa-small {
+    font-size: 0.5em;
+}
+.wd-post-user-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-post-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.wd-post-footer a {
+    text-decoration: none;
+}
+.wd-post-image2 {
+    border: rgb(47, 51, 54) 1px solid;
+    border-radius: 20px;
+}
+.wd-post-image1-box {
+    border: rgb(47, 51, 54) 1px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wd-post-image1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wd-post-image1-text {
+    padding: 12px;
+    border: rgb(47, 51, 54) 1px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.wd-text-no-underline {
+    text-decoration: none;
+}
+.wd-new-post-border {
+    border-top: rgb(47, 51, 54) 1px solid;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-float-done {
+    clear: both;
+}
+.wd-background-none {
+    background: none;
+}
+.wd-color-white {
+    color: white;
+}
