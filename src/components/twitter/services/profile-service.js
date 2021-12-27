@@ -1,13 +1,13 @@
 const PROFILE_API_A9 = () => {
     if (process.env.NODE_ENV === "development") {
-        return 'http://localhost:4000/rest/profile';
+        return 'http://localhost:4000/profile';
     } else {
-        return 'https://web-dev-node-5610.herokuapp.com/rest/profile';
+        return 'https://web-dev-node-5610.herokuapp.com/profile';
     }
 }
 
 export const getCurrentProfile = (dispatch) =>
-    fetch(PROFILE_API_A9())
+    fetch(`${PROFILE_API_A9()}/get`)
         .then(response => response.json())
         .then(profile => {
             dispatch({

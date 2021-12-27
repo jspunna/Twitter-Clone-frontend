@@ -1,8 +1,8 @@
 const TWEET_API = () => {
     if (process.env.NODE_ENV === "development") {
-        return 'http://localhost:4000/rest/tweets';
+        return 'http://localhost:4000/tweets';
     } else {
-        return 'https://web-dev-node-5610.herokuapp.com/rest/tweets';
+        return 'https://web-dev-node-5610.herokuapp.com/tweets';
     }
 }
 
@@ -54,8 +54,3 @@ export const likeTweet = (dispatch, tweet) =>
                 type: 'like-tweet',
                 tweet
             }));
-
-/*
-export default {
-    fetchAllTweets, postNewTweet, deleteTweet, likeTweet
-};*/

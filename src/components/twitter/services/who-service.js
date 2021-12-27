@@ -1,8 +1,8 @@
 const WHO_API = () => {
     if (process.env.NODE_ENV === "development") {
-        return 'http://localhost:4000/rest/who';
+        return 'http://localhost:4000/who';
     } else {
-        return 'https://web-dev-node-5610.herokuapp.com/rest/who';
+        return 'https://web-dev-node-5610.herokuapp.com/who';
     }
 }
 
