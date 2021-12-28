@@ -1,10 +1,10 @@
 # Twitter Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was created to mock the look and some of the functionality provided by [Twitter](https://twitter.com/).\
+This project was created to mock the look and some of the functionality provided by [Twitter](https://twitter.com/).
 
-Currently, the Home, Explore, and Profile tabs are functional. These tabs attempt to closely replicate the functionality of the respective tabs on the actual Twitter site. The styling of the clone was built using Bootstrap and CSS. Data is stored and retrieved using MongoDB and mongoose.\
+Currently, the Home, Explore, and Profile tabs are functional. These tabs attempt to closely replicate the functionality of the respective tabs on the actual Twitter site. The styling of the clone was built using Bootstrap and CSS. Data is stored and retrieved using MongoDB and mongoose. The backend uses Node.js and Express\
 The frontend is hosted on Netlify and the backend is deployed using Heroku.
 
 ## Check out the site
