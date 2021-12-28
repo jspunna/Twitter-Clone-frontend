@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To view the Twitter Clone, [Click Here](https://hopeful-blackwell-01b087.netlify.app/)
 
+
+If in development mode....\
 ### `npm start`
 
 npm start will run the app in the development mode.\
