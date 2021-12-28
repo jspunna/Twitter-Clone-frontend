@@ -15,7 +15,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
                 <div className="col-1">
-                    <a href="../../../../../public/a5/twitter/explore/explore-settings.html"><i className="fas fa-cog fa-2x wd-tweet-blue"></i></a>
+                    <a href="/#"><i className="fas fa-cog fa-2x wd-tweet-blue"></i></a>
                 </div>
             </div>
 
@@ -24,19 +24,19 @@ const ExploreComponent = () => {
                 <div className="col-12">
                     <ul className="nav nav-tabs mb-2">
                         <li className="nav-item">
-                            <a className="nav-link active" href="for-you.html">For you</a>
+                            <a className="nav-link active" href="/#">For you</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="trending.html">Trending</a>
+                            <a className="nav-link" href="/#">Trending</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="news.html">News</a>
+                            <a className="nav-link" href="/#">News</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="sports.html">Sports</a>
+                            <a className="nav-link" href="/#">Sports</a>
                         </li>
                         <li className="nav-item d-none d-md-block">
-                            <a className="nav-link" href="entertainment.html">Entertainment</a>
+                            <a className="nav-link" href="/#">Entertainment</a>
                         </li>
                     </ul>
                 </div>

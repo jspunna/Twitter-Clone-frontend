@@ -6,7 +6,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
         <>
             <ul className="list-group">
                     <li className="list-group-item">
-                        <Link to="/a9">
+                        <Link to="/home">
                             <i className="fab fa-twitter"></i>
                         </Link>
                     </li>
@@ -102,7 +102,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
             </ul>
 
             <div className="d-grid mx-auto mt-2">
-                <a href="/#" className="btn btn-primary btn-block rounded-pill">Tweet</a>
+                <button className="btn btn-primary btn-block rounded-pill">Tweet</button>
             </div>
         </>
 

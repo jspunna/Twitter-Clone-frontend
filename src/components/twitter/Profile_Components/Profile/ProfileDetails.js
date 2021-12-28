@@ -1,5 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
+import {Link} from "react-router-dom";
 
 const ProfileDetails = ({
                             profile = {
@@ -36,7 +37,10 @@ const ProfileDetails = ({
         <>
             <div className="wd-dm-gray row">
                 <div className="text-white pb-2">
-                    <span className="fw-bold fs-5 ms-5">{profile.firstName} {profile.lastName}</span>
+                    <Link to="/home">
+                        <i className="fas fa-arrow-left ms-3"></i>
+                    </Link>
+                    <span className="fw-bold fs-5 ms-4">{profile.firstName} {profile.lastName}</span>
                 </div>
             </div>
             <div className="row">
