@@ -10,7 +10,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                             <i className="fab fa-twitter"></i>
                         </Link>
                     </li>
-                <Link to="/a9/twitter/home" className="wd-text-no-underline">
+                <Link to="/home" className="wd-text-no-underline">
                     <li className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                         <div className="row">
                             <div className="col-xl-3">
@@ -22,7 +22,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </li>
                 </Link>
-                <Link to="/a9/twitter/explore" className="wd-text-no-underline">
+                <Link to="/explore" className="wd-text-no-underline">
                     <li className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
                         <div className="row">
                             <div className="col-xl-3">
@@ -74,7 +74,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </li>
-                <Link to="/a9/twitter/profile" className="wd-text-no-underline">
+                <Link to="/profile" className="wd-text-no-underline">
                     <li className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
                         <div className="row">
                             <div className="col-xl-3">
