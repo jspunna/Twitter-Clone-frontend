@@ -4,8 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Check out the site
 
-To view the Twitter Clone, [Click Here})(https://hopeful-blackwell-01b087.netlify.app/)\
-
+To view the Twitter Clone, [Click Here](https://hopeful-blackwell-01b087.netlify.app/)
 
 ### `npm start`
 
