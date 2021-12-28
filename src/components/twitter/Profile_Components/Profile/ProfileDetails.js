@@ -36,8 +36,7 @@ const ProfileDetails = ({
         <>
             <div className="wd-dm-gray row">
                 <div className="text-white pb-2">
-                    <i className="fas fa-arrow-left ms-3"></i>
-                    <span className="fw-bold fs-5 ms-4">{profile.firstName} {profile.lastName}</span>
+                    <span className="fw-bold fs-5 ms-5">{profile.firstName} {profile.lastName}</span>
                 </div>
             </div>
             <div className="row">

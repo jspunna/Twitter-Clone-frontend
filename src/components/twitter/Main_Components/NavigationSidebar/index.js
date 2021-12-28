@@ -102,7 +102,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
             </ul>
 
             <div className="d-grid mx-auto mt-2">
-                <a href="tweet.html" className="btn btn-primary btn-block rounded-pill">Tweet</a>
+                <a href="/#" className="btn btn-primary btn-block rounded-pill">Tweet</a>
             </div>
         </>
 
