@@ -1,6 +1,6 @@
 # Twitter Clone
 
-To view the Twitter Clone website, [Click Here](https://hopeful-blackwell-01b087.netlify.app/)
+## To view the Twitter Clone website, [Click Here](https://hopeful-blackwell-01b087.netlify.app/)
 
 This project was created to mainly mock the look and some of the functionality provided by [Twitter](https://twitter.com/).
 
